@@ -4,6 +4,7 @@ height: 100%;
 
 body {
 height: 100%;
+padding-bottom: 34px;
 }
 
 .navbar {
@@ -12,24 +13,20 @@ margin-bottom: 0px;
 
 .bottom-nav {
 position: fixed;
-bottom: 20px;
+bottom: 0px;
+}
+
+.bottom-nav .col-md-6 {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.bottom-nav .btn-group .btn {
+border-radius: 0px;
 }
 
 /* mobile */
 @media (max-width: 768px) {
-	body {
-	padding-bottom: 34px;
-	}
-
-	.bottom-nav {
-	bottom: 0px;
-	}
-	
-	.bottom-nav .col-md-6 {
-	padding-left: 0px;
-	padding-right: 0px;
-	}
-	
 	.bottom-nav .btn-group .btn {
 	border-radius: 0px;
 	}
