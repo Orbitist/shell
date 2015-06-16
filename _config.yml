@@ -1,0 +1,19 @@
+permalink: :title
+
+highlighter: pygments
+markdown: kramdown
+
+title : Orbitist Shell
+tagline: This is shell!
+author : 
+  name : Orbitist Support
+  email : support@orbitist.com
+  github : Orbitist
+  twitter : TheOrbitist
+  web : http://www.orbitist.com/shell
+
+production_url : orbitist.com/shell
+
+baseurl : http://orbitist.com/shell
+  
+timezone : America/New_York
