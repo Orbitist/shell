@@ -13,5 +13,25 @@ margin-bottom: 0px;
 
 .bottom-nav {
 position: fixed;
-bottom: 5px;
+bottom: 20px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+	body {
+	padding-bottom: 34px;
+	}
+
+	.bottom-nav {
+	bottom: 0px;
+	}
+	
+	.bottom-nav .col-md-6 {
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.bottom-nav .btn-group .btn {
+	border-radius: 0px;
+	}
 }
