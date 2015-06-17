@@ -7,6 +7,11 @@ height: 100%;
 padding-bottom: 34px;
 }
 
+p {
+font-size: 25px;
+padding: 25px;
+}
+
 .navbar {
 margin-bottom: 0px;
 }
