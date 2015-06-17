@@ -17,3 +17,5 @@ production_url : orbitist.com/shell
 baseurl : http://orbitist.com/shell
   
 timezone : America/New_York
+
+google_analytics : UA-50308061-1
